@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      {% block title %}
+      {% endblock title %}
+    </title>
+    {% if debug %}
+      <link rel="stylesheet" href="{% static 'css/tailwind.dev.css' %}" />
+    {% else %}
+      <link rel="stylesheet" href="{% static 'css/tailwind.min.css' %}" />
+    {% endif %}
+  </head>
+  <body>
+    {% block content %}
+    {% endblock content %}
+  </body>
+</html>
