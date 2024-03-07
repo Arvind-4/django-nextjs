@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "django-nextjs"
+version = "0.1.0"
+description = "A Django Backend with a simple nextjs website with tailwind"
+authors = ["Arvind .A <pingarvindforquestions@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = ">=4.2,<4.3"
+django-cors-headers = "^4.3.1"
+python-decouple = "^3.8"
+whitenoise = "^6.6.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.2.0"
+pylint = "^3.1.0"
+isort = "^5.13.2"
+autoflake = "^2.3.0"
+djlint = "^1.34.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
