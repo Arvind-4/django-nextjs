@@ -10,11 +10,11 @@ A Simple Django backend deployed along side with a Nextjs frontend.
 - [Typescript](https://www.typescriptlang.org/) - JavaScript with syntax for types.
 
 ## Deployed Routes:
-- [Home Route](https://django-nextjs-pi.vercel.app/) - "/"
-- [Date Route](https://django-nextjs-pi.vercel.app/api/date/) - "/api/date/"
-- [Django Template](https://django-nextjs-pi.vercel.app/api/sample/) - "/api/sample/"
-- [Hello](https://django-nextjs-pi.vercel.app/api/hello/) - "/api/hello/"
-- [About Page](https://django-nextjs-pi.vercel.app/about/) - "/about/"
+- [Home Route](https://django-and-nextjs.vercel.app/) - "/"
+- [Date Route](https://django-and-nextjs.vercel.app/api/date/) - "/api/date/"
+- [Django Template](https://django-and-nextjs.vercel.app/api/sample/) - "/api/sample/"
+- [Hello](https://django-and-nextjs.vercel.app/api/hello/) - "/api/hello/"
+- [About Page](https://django-and-nextjs.vercel.app/about/) - "/about/"
 
 ## Project structure
 
