@@ -14,6 +14,7 @@ A Simple Django backend deployed along side with a Nextjs frontend.
 - [Date Route](https://django-nextjs-pi.vercel.app/api/date/) - "/api/date/"
 - [Django Template](https://django-nextjs-pi.vercel.app/api/sample/) - "/api/sample/"
 - [Hello](https://django-nextjs-pi.vercel.app/api/hello/) - "/api/hello/"
+- [About Page](https://django-nextjs-pi.vercel.app/about/) - "/about/"
 
 ## Project structure
 
